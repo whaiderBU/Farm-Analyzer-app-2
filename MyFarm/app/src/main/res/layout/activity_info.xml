@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/crops"
+    tools:context="com.example.tsycp.myfarm.InfoActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="96dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/bulogo"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Waqar Haider   whaider@bu.edu
+
+Vikram              gvikram@bu.​edu
+
+Siyaun Tang     sytang7@bu.edu
+"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="Version  1.0"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="48dp" />
+</android.support.constraint.ConstraintLayout>
